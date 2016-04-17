@@ -3,11 +3,11 @@ var awsIot = require("aws-iot-device-sdk");
 // Adapted from:
 // https://raw.githubusercontent.com/sreid/aws-iot-raspberry-pi-how-to/master/pi.js
 
-// Config here.
+// CONFIGURABLE VARIABLES -- EDIT ME
 var thingName = "Raspine1",
     iface = "wlan0",  // can be eth0
-    privateKeyPath = "../certs/547df7acb9-private.pem.key",
-    certificatePath = "../certs/547df7acb9-certificate.pem.crt",
+    privateKeyPath = "../certs/123456789abcd-private.pem.key",
+    certificatePath = "../certs/123456789abcd-certificate.pem.crt",
     caPath = "../certs/rootCA.pem",
     region = "us-east-1";
 
